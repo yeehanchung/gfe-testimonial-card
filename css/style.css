@@ -50,6 +50,10 @@ body {
   display: inline-flex;
 }
 
+.row .col:last-child {
+  overflow: hidden;
+}
+
 /* --- Profile img, name, name tag --- */
 
 .profile-img {
@@ -58,12 +62,20 @@ body {
   border-radius: 48px;
 }
 
+.name-ctn {
+  display: flex;
+}
+
 .name {
   font-weight: 600;
   font-size: 18px;
   color: #171717;
   line-height: 28px;
   height: 28px;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .name-tag-ctn {
