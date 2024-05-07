@@ -56,6 +56,10 @@ body {
   height: 28px;
 }
 
+.name-tag-ctn{
+  padding-top: 1px;
+}
+
 .name-tag {
   font-style: normal;
   font-weight: 400 !important;
