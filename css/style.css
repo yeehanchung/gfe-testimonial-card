@@ -15,8 +15,7 @@ body {
   height: 100%;
   justify-content: center;
   flex-direction: column;
-  background-color: #F9FAFB;
-  background: linear-gradient(#F9FAFB, #D2D6DB);
+  background: linear-gradient(147.52deg, #F9FAFB 8.89%, #D2D6DB 100.48%);
 }
 
 .ctn {
