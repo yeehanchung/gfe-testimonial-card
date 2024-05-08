@@ -15,6 +15,10 @@ body {
   background: linear-gradient(147.52deg, #F9FAFB 8.89%, #D2D6DB 100.48%);
 }
 
+p {
+  margin: 0;
+}
+
 .ctn {
   margin-left: auto;
   margin-right: auto;
@@ -48,7 +52,7 @@ body {
 
 /* --- Profile img, name, name tag --- */
 
-.profile-img {
+.avatar-img {
   height: 48px;
   width: 48px;
   border-radius: 48px;
@@ -71,11 +75,11 @@ body {
   text-overflow: ellipsis;
 }
 
-.name-tag-ctn {
+.username-ctn {
   padding-top: 1px;
 }
 
-.name-tag {
+.username {
   font-style: normal;
   font-weight: 400 !important;
   font-size: 14px;
@@ -83,7 +87,7 @@ body {
   color: #525252;
 }
 
-.wording-ctn {
+.testimonial-ctn {
   margin-top: 16px;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -93,7 +97,7 @@ body {
   display: -webkit-box;
 }
 
-.wording {
+.testimonial {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
