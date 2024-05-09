@@ -33,9 +33,7 @@ p {
 
 .row {
   display: flex;
-  align-items: center;
   gap: 16px;
-
   height: 49px;
 }
 
@@ -73,7 +71,7 @@ p {
 }
 
 .username-ctn {
-  padding-top: 1px;
+  margin-top: 1px;
 }
 
 .username {
