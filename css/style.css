@@ -26,7 +26,7 @@ p {
   width: 340px;
   border-radius: 8px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
-  padding: 23.5px 23px;
+  padding: 24px;
 }
 
 /* --- Row and Col --- */
@@ -48,6 +48,7 @@ p {
 /* --- Profile img, name, name tag --- */
 
 .avatar-img {
+  margin: 0.5px 0;
   height: 48px;
   width: 48px;
   border-radius: 48px;
@@ -70,16 +71,17 @@ p {
   text-overflow: ellipsis;
 }
 
+.username-ctn {
+  display: flex;
+  height: 21px;
+}
+
 .username {
   font-style: normal;
-  font-weight: 400 !important;
+  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: #525252;
-}
-
-.spacer{
-  height: 1px;
 }
 
 .testimonial-ctn {
