@@ -45,6 +45,12 @@ p {
   overflow: hidden;
 }
 
+.col.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* --- Profile img, name, name tag --- */
 
 .avatar-img {
@@ -72,8 +78,7 @@ p {
 }
 
 .username-ctn {
-  display: flex;
-  height: 21px;
+  height: 20px;
 }
 
 .username {
