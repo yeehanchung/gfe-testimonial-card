@@ -70,16 +70,16 @@ p {
   text-overflow: ellipsis;
 }
 
-.username-ctn {
-  margin-top: 1px;
-}
-
 .username {
   font-style: normal;
   font-weight: 400 !important;
   font-size: 14px;
   line-height: 20px;
   color: #525252;
+}
+
+.spacer{
+  height: 1px;
 }
 
 .testimonial-ctn {
