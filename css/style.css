@@ -75,11 +75,9 @@ p {
   text-overflow: ellipsis;
 }
 
-.username-ctn {
-  height: 20px;
-}
-
 .username {
+  margin-top: 1px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
